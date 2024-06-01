@@ -47,12 +47,15 @@ header img {
 }
 /* the styles for the form */
 fieldset {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding-top: .5em;
+	margin-bottom: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-right: 1em;
+	padding-left:1em;
+
 }
 legend {
-    color: #931420;
+    color: black;
     font-weight: bold;
     font-size: 85%;
     margin-bottom: .5em;
@@ -71,7 +74,7 @@ input, select {
     margin-bottom: .5em;
 }
 input:required, input[required] {
-	border: 3px solid red;
+	border: 2px solid #800000;
 }
 input:valid {
 	border: 1px solid black;
@@ -172,4 +175,27 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+#bill {
+	float: left;
+	width: auto;
+	text-align: left;
+	margin-left: 3em;
+}
+#credit {
+	float: left;
+	width: auto;
+	text-align: left;
+	margin-left: 3em;
+}
+.sad {
+	text-align:left;
+	margin-left:5px;
+	width:auto;
+}
+#expiration_date{
+	width:7em;
+}
+#year{
+	width:5em;
 }
